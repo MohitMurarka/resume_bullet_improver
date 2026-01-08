@@ -119,9 +119,29 @@ Developed a React-based web application, improving UI responsiveness and maintai
 
 ---
 
+## Project Structure
+
+```bash
+resume_bullet_improver/
+├── app.py                 # Streamlit UI + LangGraph agent
+├── chains.py              # Rewrite + Recruiter chains
+├── .env.example           # Example API key file
+├── requirements.txt       # Python dependencies
+└── README.md              # Project documentation
+```
+
+### Description of files
+
+- **app.py** – Main Streamlit app that handles user input, runs the LangGraph agent loop, and displays the output.  
+- **chains.py** – Defines the Rewrite Agent and Recruiter Critic prompts and chains.  
+- **.env.example** – Template for environment variables; contains placeholder for `OPENAI_API_KEY`.  
+- **requirements.txt** – Lists all Python dependencies required to run the project.  
+- **README.md** – Project documentation, usage instructions, and examples.
+---
+
 ## Author
 
-This project was created by **[Your Name]**.  
+This project was created by **MR. MOHIT MURARKA**.  
 
 - **GitHub:** [https://github.com/MohitMurarka](https://github.com/MohitMurarka)
 - **LinkedIn:** [https://www.linkedin.com/in/Mohit-Murarka](https://www.linkedin.com/in/mohit-murarka-b165882aa/)  
