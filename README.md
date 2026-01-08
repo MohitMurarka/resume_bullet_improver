@@ -38,20 +38,92 @@ The feedback loops back to the Rewrite Agent, resulting in polished, professiona
 git clone https://github.com/yourusername/resume_bullet_improver.git
 cd resume_bullet_improver
 # resume_bullet_improver
+```
 
-2. ****
+2. **Install dependencies**
 
+```bash
+pip install -r requirements.txt
+```
+
+3. **Add your OpenAI API key**
+- Copy .env.example to .env
+- Add your API key:
+
+```bash
+OPENAI_API_KEY=your_openai_api_key_here
+```
+4.**Run the Streamlit app**
+
+```bash
+streamlit run app.py
+```
+---
 ## Usage
 
-1. Enter a weak or vague resume bullet in the text area.  
-2. Click **Improve Bullet**.  
-3. The app will display:
-   - **Iteration Trace:** Shows each rewrite and recruiter feedback  
-   - **Final Improved Bullet:** The polished, professional output  
+1. **Enter a resume bullet:**  
+   - Open the Streamlit app in your browser.  
+   - Enter a weak, vague, or rough resume bullet in the text area.  
+
+2. **Click "Improve Bullet":**  
+   - The AI agents will process the input.  
+   - The **Rewrite Agent** rewrites the bullet concisely and professionally.  
+   - The **Recruiter Critic** provides short feedback on clarity, impact, and metrics.  
+   - Feedback loops back to the Rewrite Agent for refinement.
+
+3. **View the output:**  
+   - **Iteration Trace:** Shows each rewrite and recruiter feedback step-by-step.  
+   - **Final Improved Bullet:** Displays the polished, professional resume bullet.
 
 ---
 
-## Example Run
+### Example Run
 
 **Input:**
 
+```bash
+Worked on a React project
+```
+
+**Iteration Trace::**
+
+```bash
+[Rewrite] Developed a React-based web application.
+[Feedback/Input] Add action verbs and measurable impact.
+[Rewrite] Developed a React-based web application, improving UI responsiveness and maintainability.
+```
+
+**Final Improved Bullet:**
+
+```bash
+Developed a React-based web application, improving UI responsiveness and maintainability.
+```
+---
+
+## Sample Inputs to Try
+- **“Built a machine learning model”**  
+- **“Led a team for a college fest”**  
+- **“Made a robot that dances”**  
+- **“Worked on database project”**  
+- **“Did something with AI”**
+
+---
+
+## Notes / Tips
+
+- Use concise bullets for best results.  
+- Feedback loop typically runs 1–2 iterations; adjust in `app.py` if needed.  
+- Optimized recruiter prompt keeps token usage low.  
+- Can extend to handle multiple bullets at once (future improvement).  
+- Streamlit UI allows interactive testing and quick demo.
+
+---
+
+## Author
+
+This project was created by **[Your Name]**.  
+
+- **GitHub:** [https://github.com/MohitMurarka](https://github.com/MohitMurarka)
+- **LinkedIn:** [https://www.linkedin.com/in/Mohit-Murarka](https://www.linkedin.com/in/mohit-murarka-b165882aa/)  
+
+Feel free to reach out for collaboration, feedback, or project inquiries.
