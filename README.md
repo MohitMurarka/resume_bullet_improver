@@ -88,15 +88,26 @@ Worked on a React project
 **Iteration Trace::**
 
 ```bash
-[Rewrite] Developed a React-based web application.
-[Feedback/Input] Add action verbs and measurable impact.
-[Rewrite] Developed a React-based web application, improving UI responsiveness and maintainability.
+[Rewrite – Basic Clarification]
+Built a React-based web application with reusable components.
+
+[Feedback/Input]
+Specify what features were built and highlight technical contribution.
+
+[Rewrite – Technical Detail Added]
+Built a React-based web application using reusable components and state management.
+
+[Feedback/Input]
+Add measurable impact and outcome-oriented action verbs.
+
+[Rewrite – Impact Focused]
+Engineered a React-based web application with reusable components and efficient state management, reducing UI bugs and improving performance.
 ```
 
 **Final Improved Bullet:**
 
 ```bash
-Developed a React-based web application, improving UI responsiveness and maintainability.
+Engineered a React-based web application with reusable components and efficient state management, reducing UI bugs and improving performance.
 ```
 ---
 
