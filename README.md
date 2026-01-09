@@ -35,7 +35,7 @@ The feedback loops back to the Rewrite Agent, resulting in polished, professiona
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/yourusername/resume_bullet_improver.git
+git clone https://github.com/MohitMurarka/resume_bullet_improver.git
 cd resume_bullet_improver
 # resume_bullet_improver
 ```
